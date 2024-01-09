@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers responsive</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+      <!--remix icons link-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+       <!-- cdn js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- cdn js gallery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css0">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="./icon/logo_dicentra.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">БУКЕТЫ</a></li>
+                <li><a href="shop.html">РОЗЫ</a></li>
+                <li><a href="blog.html">ЦВЕТЫ</a></li>
+                <li><a class="active" href="about.html">ЦВЕТЫ В КАРОБКЕ</a></li>
+                <li><a href="contact.html">ПОДАРКИ</a></li>
+                <li><a href="cart.html"><i class="ri-shopping-bag-3-fill"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="BODY">
+          <div class="coNTainer">
+        <section class="gallery">
+
+            <div class="frame">
+                <div class="frame__content">
+                    <h2>Beutiful Flowers</h2>
+                </div>
+            </div>
+
+            <div class="frame">
+                <div class="frame__content">
+                    <div class="frame-media frame-media__left" style="background-image: url(./images/unsplash\ 1.jpg);"></div>
+                </div>
+            </div>
+
+            <div class="frame frame__bg">
+                <div class="frame__content">
+                    <video class="frame-media frame-media__right" src="./media/unsplash video 1.mp4" autoplay loop muted></video>
+                </div>
+            </div>
+
+            <div class="frame"></div>
+
+            <div class="frame">
+                <div class="frame__content text-right" >
+                    <h3>Puro planet</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi architecto ducimus, quidem nesciunt dolor quae obcaecati eaque porro ratione perspiciatis ipsum numquam laborum, tempore sapiente? Excepturi sapiente temporibus soluta. Dicta.
+                    </p>
+                </div>
+            </div>
+
+            <div class="frame frame__bg">
+                <div class="frame__content">
+                    <div class="frame-media frame-media__left" style="background-image: url(./images/grey\ flower.jpg);"></div>
+                </div>
+            </div>
+
+            <div class="frame"></div>
+
+            <div class="frame frame__bg">
+                <div class="frame__content">
+                    <div class="frame-media frame-media__right" style="background-image: url(./images/unsplash\ 3.jpg);"></div>
+                </div>
+            </div>
+
+            <div class="frame"></div>
+
+            <div class="frame">
+                <div class="frame__content text-left" >
+                    <h3>Ask The Flowers</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi architecto ducimus, quidem nesciunt dolor quae obcaecati eaque porro ratione perspiciatis ipsum numquam laborum, tempore sapiente? Excepturi sapiente temporibus soluta. Dicta.
+                    </p>
+                </div>
+            </div>
+
+            <div class="frame frame__bg">
+                <div class="frame__content">
+                    <div class="frame-media frame-media__right" style="background-image: url(./images/unsplash\ 4.jpg);"></div>
+                </div>
+            </div>
+
+            <div class="frame frame__bg">
+                <div class="frame__content">
+                    <video class="frame-media frame-media__left" src="./media/unsplash video 2.mp4" autoplay loop muted></video>
+                </div>
+            </div>
+
+            <div class="frame"></div>
+            <div class="frame"></div>
+
+            <div class="frame frame__bg">
+                <div class="frame__content">
+                    <div class="frame-media frame-media__right" style="background-image: url(./images/unsplash\ 6.jpg);"></div>
+                </div>
+            </div>
+
+            
+            <div class="frame frame__bg">
+                <div class="frame__content">
+                    <video class="frame-media" src="./media/3D flower video.mp4" autoplay loop muted></video>
+                </div>
+            </div>
+
+            <div class="frame"></div>
+            <div class="frame"></div>
+
+            <div class="frame">
+                <div class="frame__content">
+                    <span>Thank You</span>
+                </div>
+            </div>
+
+
+          
+          
+          
+        </section>
+    </div>
+
+    <img class="soundbutton" src="./images/red.jpg" alt="">
+    <audio class="audio" src="./audios/Misly (speed up).mp3" loop></audio>
+
+
+    </div>
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+     <!-- cdn js gallery -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+     <!-- swiper js    -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <!-- mixiup js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="./api.js"></script>
+
+   <script>
+    // 3d scroll
+
+let zSpacing = -1000,
+    lastPos = zSpacing / 5,
+    $frames = document.getElementsByClassName('frame'),
+    frames = Array.from($frames),
+    zVals = []
+
+window.onscroll = function() {
+
+    let top = document.documentElement.scrollTop,
+        delta = lastPos - top
+
+    lastPos = top
+    
+    frames.forEach(function(n, i){
+        zVals.push((i * zSpacing) + zSpacing)
+        zVals[i] += delta * -5.5
+        let frame = frames[i],
+            transform = `translateZ(${zVals[i]}px)`,
+            opacity = zVals[i] < Math.abs(zSpacing) / 1.8 ? 1 : 0
+        frame.setAttribute('style', `transform: ${transform}; opacity: ${opacity}`)    
+    })
+}
+
+window.scrollTo(0, 1)
+
+// Audio
+
+let soundbutton = document.querySelector('.soundbutton'),
+    audio = document.querySelector('.audio')
+
+soundbutton.addEventListener('click', e => {
+    soundbutton.classList.toggle('paused')
+    audio.paused ? audio.play() : audio.paused()
+})
+
+window.onfocus = function() {
+    soundbutton.classList.contains('paused') ? audio.paused() : audio.play
+}
+
+window.onblur = function() {
+    audio.paused()
+}
+   </script>
+</body>
+</html>

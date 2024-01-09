@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers responsive</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+      <!--remix icons link-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+       <!-- cdn js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+      <!-- Link Swiper's CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+       <!-- Link Swiper's CSS -->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        <!-- cdn js gallery -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="./icon/logo_dicentra.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">БУКЕТЫ</a></li>
+                <li><a href="shop.html">РОЗЫ</a></li>
+                <li><a href="blog.html">ЦВЕТЫ</a></li>
+                <li><a href="about.html">ЦВЕТЫ В КАРОБКЕ</a></li>
+                <li><a href="contact.html">ПОДАРКИ</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="ri-shopping-bag-3-fill"></i></a></li>
+                <a href="#" id="closE"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+             <a href="cart.html"><i class="ri-shopping-bag-3-fill"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <!-- home section -->
+    <section id="hero">   
+        <h4>Trade-In-Offer</h4>
+        <h2>Только лучшшие</h2>
+        <h1>букеты!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <button>Вибрать букет</button>
+    </section>
+
+    <!-- feature section -->
+       <!-- Service -->
+       <section id="service">
+        <!-- <div class="tittle-text">
+            <p>YAHYO BEK</p>
+            <h1>We Provide Better</h1>
+        </div> -->
+
+        <div class="service-box">
+            <div class="single-service">
+               <h3>Ми створили Dicentra для того, щоб вам бильше <br>не довелося думати, як саме краще висловити свои <br>почуття</h3>
+                <img src="./icon/gul 1.png" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Сервис с первой секунды</h3>
+                   <p>
+                    Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Dignissimos voluptas blanditiis <br>ipsum itaque doloribus corporis <br> quos reiciendis dolor ad sapiente.
+                   </p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="./icon/gul 2.png" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Вау-ассортимент</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum  <br> repellat voluptates est.
+                    </p>
+                </div>
+            </div>
+          
+           
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio section" id="portfolio">
+        <div class="tittle-text">
+            <h1>Наши бестселлеры</h1>
+        </div>
+        <div class="portfolio_container container">
+             <ul class="portfolio_filters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-card">Card</li>
+            <li data-filter=".filter-web">Web</li>
+        </ul>
+        <div class="portfolio_wrap-container">
+            <div class="portfolio_item filter-web">
+                <div class="portfolio_wrap">
+                    <img src="./icon/gullar 1.png" alt="" class="img-field">
+                    <div class="portfolio_info">
+                        <h4>букет №29 роз джумилия</h4>
+                        <p>1 089 грн</p>
+                        <div class="portfolio_lonks">
+                         <a href="#" class="btn">В корзину</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio_item filter-app">
+                <div class="portfolio_wrap">
+                    <img src="./icon/gullar 3.png" alt=""  class="img-field">
+                    <div class="portfolio_info">
+                        <h4>букет №29 роз джумилия</h4>
+                        <p>1 089 грн</p>
+                        <div class="portfolio_lonks">
+                            <a href="#" class="btn">В корзину</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio_item filter-app">
+                <div class="portfolio_wrap">
+                    <img src="./icon/gullar 4.png" alt=""  class="img-field">
+                    <div class="portfolio_info">
+                        <h4>букет №29 роз джумилия</h4>
+                        <p>1 089 грн</p>
+                        <div class="portfolio_lonks">
+                            <a href="#" class="btn">В корзину</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="portfolio_item filter-card">
+                <div class="portfolio_wrap">
+                    <img src="./icon/gullar 5.png" alt=""  class="img-field">
+                    <div class="portfolio_info">
+                        <h4>букет №29 роз джумилия</h4>
+                        <p>1 089 грн</p>
+                        <div class="portfolio_lonks">
+                            <a href="#" class="btn">В корзину</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio_item filter-card">
+                <div class="portfolio_wrap">
+                    <img src="./icon/gullar 1.png" alt=""  class="img-field">
+                    <div class="portfolio_info">
+                        <h4>букет №29 роз джумилия</h4>
+                        <p>1 089 грн</p>
+                        <div class="portfolio_lonks">
+                            <a href="#" class="btn">В корзину</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio_item filter-app">
+                <div class="portfolio_wrap">
+                    <img src="./icon/gullar 4.png" alt=""  class="img-field">
+                    <div class="portfolio_info">
+                        <h4>букет №29 роз джумилия</h4>
+                        <p>1 089 грн</p>
+                        <div class="portfolio_lonks">
+                            <a href="#" class="btn">В корзину</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio_item filter-app">
+                <div class="portfolio_wrap">
+                    <img src="./icon/gullar 6.png" alt=""  class="img-field">
+                    <div class="portfolio_info">
+                        <h4>букет №29 роз джумилия</h4>
+                        <p>1 089 грн</p>
+                        <div class="portfolio_lonks">
+                            <a href="#" class="btn">В корзину</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio_item filter-card">
+                <div class="portfolio_wrap">
+                    <img src="./icon/gullar 7.png" alt=""  class="img-field">
+                    <div class="portfolio_info">
+                        <h4>букет №29 роз джумилия</h4>
+                        <p>1 089 грн</p>
+                        <div class="portfolio_lonks">
+                            <a href="#" class="btn">В корзину</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="service">
+        <!-- <div class="tittle-text">
+            <p>YAHYO BEK</p>
+            <h1>We Provide Better</h1>
+        </div> -->
+
+        <div class="service-box">
+            <div class="single-service">
+               <h3>Ми створили Dicentra для того, щоб вам бильше <br>не довелося думати, як саме краще висловити свои <br>почуття</h3>
+                <img src="./icon/home 1.png" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Сервис с первой секунды</h3>
+                   <p>
+                    Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Dignissimos voluptas blanditiis <br>ipsum itaque doloribus corporis <br> quos reiciendis dolor ad sapiente.
+                   </p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="./icon/home 2.png" alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Вау-ассортимент</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum  <br> repellat voluptates est.
+                    </p>
+                </div>
+            </div>
+          
+           
+        </div>
+    </section>
+
+
+       <!--newlater-->
+       <section class="newlater" id="content">
+        <div class="tittle-text">
+            <h2>Красивый букет - лучшшие подарок! </h2>
+            <span>Быстрий подбор (мы подберём вам идеалъный вариант)</span>
+        </div>
+        <div class="news-box">
+            <select>
+                <option>Цветок</option>
+                 <option>Событие</option>
+                  <option>Бюджет</option>
+                   <option>jnkfke</option>
+            </select>
+            <select>
+                <option>Событие</option>
+                 <option>jnkfke</option>
+                  <option>jnkfke</option>
+                   <option>jnkfke</option>
+            </select>
+            <select>
+                <option>Бюджет</option>
+                 <option>jnkfke</option>
+                  <option>jnkfke</option>
+                   <option>jnkfke</option>
+               
+            </select>
+            <a href="#" class="btn3">Подорать</a>
+            <!-- <a href="#" class="btn2">Subscribe</a>
+            <a href="#" class="btn2">Subscribe</a> -->
+        
+        </div>
+    </section>
+
+    <!-- testimonial section -->
+    <section class="testimonial section">
+        <div class="tittle-text">
+            <h1>Вместе дешевле</h1>
+        </div>
+
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
+        slides-per-view="3">
+    <swiper-slide>
+        <img src="./icon/gullar 1.png" alt="">
+        <h3>Букет №29 Роз Джумилия</h3>
+        <p>754 грн</p>
+        <hr>
+        <a href="#" class="btn16">Subscribe</a>
+    </swiper-slide>
+    <swiper-slide>
+        <img src="./icon/rafaello 3.png" alt="">
+        <h3>Конфеты Rafaello Пиатта</h3>
+        <p>299 грн</p>
+        <hr>
+        <a href="#" class="btn16">Subscribe</a>
+    </swiper-slide>
+    <swiper-slide>
+        <img src="./icon/gullar 5.png" alt="">
+        <h3>Букет №29 Роз Джумилия</h3>
+        <p>754 грн</p>
+        <hr>
+        <a href="#" class="btn16">Subscribe</a>
+    </swiper-slide>
+    <swiper-slide>
+        <img src="./icon/rafaello.png" alt="">
+        <h3>Конфеты Rafaello Пиатта</h3>
+        <p>299 грн</p>
+        <hr>
+        <a href="#" class="btn16">Subscribe</a>
+    </swiper-slide>
+    <swiper-slide>
+        <img src="./icon/gullar 7.png" alt="">
+        <h3>Букет №29 Роз Джумилия</h3>
+        <p>754 грн</p>
+        <hr>
+        <a href="#" class="btn16">Subscribe</a>
+    </swiper-slide>
+    <swiper-slide>
+        <img src="./icon/rafaello 4.png" alt="">
+        <h3>Конфеты Rafaello Пиатта</h3>
+        <p>299 грн</p>
+        <hr>
+        <a href="#" class="btn16">Subscribe</a>
+    </swiper-slide>
+    <swiper-slide>
+        <img src="./icon/gullar 3.png" alt="">
+        <h3>Букет №29 Роз Джумилия</h3>
+        <p>754 грн</p>
+        <hr>
+        <a href="#" class="btn16">Subscribe</a>
+    </swiper-slide>
+    <swiper-slide>
+        <img src="./icon/rafaello 1.png" alt="">
+        <h3>Конфеты Rafaello Пиатта</h3>
+        <p>299 грн</p>
+        <hr>
+        <a href="#" class="btn16">Subscribe</a>
+    </swiper-slide>
+    <swiper-slide>
+        <img src="./icon/gullar 4.png" alt="">
+        <h3>Букет №29 Роз Джумилия</h3>
+        <p>754 грн</p>
+        <hr>
+        <a href="#" class="btn16">Subscribe</a>
+    </swiper-slide>
+  </swiper-container>
+    </section>
+
+      <!--section packages-->
+
+      <section class="packages" id="packages">
+        <div class="tittle-text">
+            <h4>Квiти - це не просто подарунок з приводу, <br>це - ще один спосiб пiдкреслити вашу <br>унiквльнiсть</h4>
+        </div>
+        <div class="services-content">
+            <div class="box">
+                <img src="./icon/pink 5.png" alt="">
+                <h3>Ендоваскулярная <br> хирургия</h3>
+                <a href="#" class="btn3">Посмотреть все</a>
+            </div>
+            <div class="box">
+                <img src="./icon/pink 2.jpg" alt="">
+                <h3>Ендоваскулярная <br> хирургия</h3>
+                <a href="#" class="btn3">Посмотреть все</a>
+            </div>
+            <div class="box">
+                <img src="./icon/pink 3.png" alt="">
+                <h3>Ендоваскулярная <br> хирургия</h3>
+                <a href="#" class="btn3">Посмотреть все</a>
+            </div>
+            <div class="box">
+                <img src="./icon/pink 4.png" alt="">
+                <h3>Ендоваскулярная <br> хирургия</h3>
+                <a href="#" class="btn3">Посмотреть все</a>
+            </div>
+            <div class="box">
+                <img src="./icon/pink 5.png" alt="">
+                <h3>Ендоваскулярная <br> хирургия</h3>
+                <a href="#" class="btn3">Посмотреть все</a>
+            </div>
+            <div class="box">
+                <img src="./icon/pink 4.png" alt="">
+                <h3>Ендоваскулярная <br> хирургия</h3>
+                <a href="#" class="btn3">Посмотреть все</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- slider js  -->
+    <section>
+        <div class="t-text">
+            <h1>Dicentra <br> в Instagram</h1>
+            <p>@dicentraflowers</p>
+        </div>
+        <div class="swiper-slider">
+            <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+         slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+        coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+    <swiper-slide>
+      <img src="./icon/woman.png" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="./icon/woamn 2.png" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="./icon/woman 3.png" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="./icon/woman.png" />
+    </swiper-slide>
+  </swiper-container>  
+        </div>
+      
+    </section>
+
+      <!-- doctor section -->
+      <section class="doctor" id="doctor">
+        <div class="tittle-text">
+            <p>Портал Disentra</p>
+        </div>
+        <div class="doctor-content">
+            <div class="boom">
+                <img src="./icon/green 1.png" alt="">
+                <h2>Уход за суккулентами </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veritatis maxime sequi inventore dicta eum nesciunt veniam placeat aliquam. Neque pariatur nam inventore reiciendis, at asperiores reprehenderit repellendus sit ex nesciunt aperiam? Et molestiae nesciunt temporibus accusantium nam nobis totam.</p>
+                <a href="#" class="btn6">Смотреть все</a>
+            </div>
+
+            <div class="boom">
+                <img src="./icon/green 2.png" alt="">
+                <h2>Оформлеие свадеб</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veritatis maxime sequi inventore dicta eum nesciunt veniam placeat aliquam. Neque pariatur nam inventore reiciendis, at asperiores reprehenderit repellendus sit ex nesciunt aperiam? Et molestiae nesciunt temporibus accusantium nam nobis totam.</p>
+                <a href="#" class="btn6">Смотреть все</a>
+            </div>
+
+            <div class="boom">
+                <img src="./icon/green 3.png" alt="">
+                <h2>Пионы - украшение сада</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veritatis maxime sequi inventore dicta eum nesciunt veniam placeat aliquam. Neque pariatur nam inventore reiciendis, at asperiores reprehenderit repellendus sit ex nesciunt aperiam? Et molestiae nesciunt temporibus accusantium nam nobis totam.</p>
+                <a href="#" class="btn6">Смотреть все</a>
+            </div>
+           
+           
+        </div>
+    </section>
+
+
+
+
+
+
+    
+    <!-- footer section -->
+
+    <section class="footer">
+
+        <div class="book-container">
+
+            <div class="book">
+                <h3>Disintra.ua</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Shop</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>About</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Team</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Blog</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Contact</a>
+            </div>
+
+            <div class="book">
+                <h3>Клиентам</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>my order</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>my wishlist</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>my account</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>my favourite</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>terms of user</a>
+            </div>
+
+            <div class="book">
+                <h3>Компания</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i>my order</a>
+                <a href="#"> <i class="fab fa-twitter"></i>twitter</a>
+                <a href="#"> <i class="fab fa-instagram"></i>instagram</a>
+                <a href="#"> <i class="fab fa-linkedin"></i>linkedin</a>
+                <a href="#"> <i class="fab fa-pinterest"></i>pinterest</a>
+            </div>
+
+            <div class="book">
+                <h3>Будьте в курсе последних <br>новостей</h3>
+                <!-- <p>subscribe for latest updates</p> -->
+                <form action="">
+                    <input type="email" name="" placeholder="Ваш email" id="">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="credit">
+        created by mr. y. safarov | all right reserved!
+    </section>
+
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+
+
+     <!-- cdn js gallery -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+     <!-- swiper js    -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <!-- slider js -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+     <!-- mixiup js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
